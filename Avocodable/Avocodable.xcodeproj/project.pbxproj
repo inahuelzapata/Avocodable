@@ -7,9 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4FA319EE8FE5C7D9352039FB /* Pods_AvocodableTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0390A1C04B5D571B15452E7E /* Pods_AvocodableTests.framework */; };
+		6FE6033E6C539FB37F49F225 /* Pods_Avocodable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD2BC9AE22833CDAEE7A3C1 /* Pods_Avocodable.framework */; };
 		CEA5ADF0213CA3CA0021CD15 /* Avocodable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA5ADE6213CA3CA0021CD15 /* Avocodable.framework */; };
 		CEA5ADF5213CA3CA0021CD15 /* AvocodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5ADF4213CA3CA0021CD15 /* AvocodableTests.swift */; };
 		CEA5ADF7213CA3CA0021CD15 /* Avocodable.h in Headers */ = {isa = PBXBuildFile; fileRef = CEA5ADE9213CA3CA0021CD15 /* Avocodable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEA5AE03213CA6200021CD15 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5AE02213CA6200021CD15 /* Endpoint.swift */; };
+		CEA5AE06213CA79C0021CD15 /* HTTPRequestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5AE05213CA79C0021CD15 /* HTTPRequestable.swift */; };
+		CEA5AE0B213CB0960021CD15 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5AE0A213CB0960021CD15 /* Response.swift */; };
+		CEA5AE0D213CB0C60021CD15 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5AE0C213CB0C60021CD15 /* Request.swift */; };
+		CEA5AE0F213CB14F0021CD15 /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5AE0E213CB14F0021CD15 /* HTTPRequest.swift */; };
+		CEA5AE12213CB2100021CD15 /* RequestBuildeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5AE11213CB2100021CD15 /* RequestBuildeable.swift */; };
+		CEB9B2D6213CB41F0072FF91 /* HTTPRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB9B2D5213CB41F0072FF91 /* HTTPRequestBuilder.swift */; };
+		CEB9B2DB213CB4C90072FF91 /* JSONEncoder+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB9B2DA213CB4C90072FF91 /* JSONEncoder+Extension.swift */; };
+		CEB9B2DD213CB4DC0072FF91 /* JSONDecoder+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB9B2DC213CB4DC0072FF91 /* JSONDecoder+Extension.swift */; };
+		CEB9B2E0213CB5200072FF91 /* AnyCodingKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB9B2DF213CB5200072FF91 /* AnyCodingKey.swift */; };
+		CEB9B2E3213CB5AF0072FF91 /* JSONDecoderStrategy+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB9B2E2213CB5AF0072FF91 /* JSONDecoderStrategy+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +36,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0390A1C04B5D571B15452E7E /* Pods_AvocodableTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AvocodableTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DA4D64BD74F587EFDA01E97 /* Pods-Avocodable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Avocodable.release.xcconfig"; path = "Pods/Target Support Files/Pods-Avocodable/Pods-Avocodable.release.xcconfig"; sourceTree = "<group>"; };
+		2D1DB9A1BEBE022C5A409B6E /* Pods-AvocodableTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvocodableTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AvocodableTests/Pods-AvocodableTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8BD2BC9AE22833CDAEE7A3C1 /* Pods_Avocodable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Avocodable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F26E05F1D19DDE93F910338 /* Pods-AvocodableTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvocodableTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AvocodableTests/Pods-AvocodableTests.release.xcconfig"; sourceTree = "<group>"; };
 		CEA5ADE6213CA3CA0021CD15 /* Avocodable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Avocodable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA5ADE9213CA3CA0021CD15 /* Avocodable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Avocodable.h; sourceTree = "<group>"; };
 		CEA5ADEA213CA3CA0021CD15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEA5ADEF213CA3CA0021CD15 /* AvocodableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvocodableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA5ADF4213CA3CA0021CD15 /* AvocodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocodableTests.swift; sourceTree = "<group>"; };
 		CEA5ADF6213CA3CA0021CD15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA5AE02213CA6200021CD15 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		CEA5AE05213CA79C0021CD15 /* HTTPRequestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequestable.swift; sourceTree = "<group>"; };
+		CEA5AE0A213CB0960021CD15 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		CEA5AE0C213CB0C60021CD15 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		CEA5AE0E213CB14F0021CD15 /* HTTPRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequest.swift; sourceTree = "<group>"; };
+		CEA5AE11213CB2100021CD15 /* RequestBuildeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuildeable.swift; sourceTree = "<group>"; };
+		CEB9B2D5213CB41F0072FF91 /* HTTPRequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequestBuilder.swift; sourceTree = "<group>"; };
+		CEB9B2DA213CB4C90072FF91 /* JSONEncoder+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONEncoder+Extension.swift"; sourceTree = "<group>"; };
+		CEB9B2DC213CB4DC0072FF91 /* JSONDecoder+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONDecoder+Extension.swift"; sourceTree = "<group>"; };
+		CEB9B2DF213CB5200072FF91 /* AnyCodingKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyCodingKey.swift; sourceTree = "<group>"; };
+		CEB9B2E2213CB5AF0072FF91 /* JSONDecoderStrategy+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONDecoderStrategy+Extension.swift"; sourceTree = "<group>"; };
+		D9F7BB5E33E7DF7B9FC1D962 /* Pods-Avocodable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Avocodable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Avocodable/Pods-Avocodable.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FE6033E6C539FB37F49F225 /* Pods_Avocodable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +75,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEA5ADF0213CA3CA0021CD15 /* Avocodable.framework in Frameworks */,
+				4FA319EE8FE5C7D9352039FB /* Pods_AvocodableTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A0B1E6F448FBA4EDD452F9D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BD2BC9AE22833CDAEE7A3C1 /* Pods_Avocodable.framework */,
+				0390A1C04B5D571B15452E7E /* Pods_AvocodableTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CEA5ADDC213CA3CA0021CD15 = {
 			isa = PBXGroup;
 			children = (
 				CEA5ADE8213CA3CA0021CD15 /* Avocodable */,
 				CEA5ADF3213CA3CA0021CD15 /* AvocodableTests */,
 				CEA5ADE7213CA3CA0021CD15 /* Products */,
+				E1D0C95A4FBA0D3CC4E00ED7 /* Pods */,
+				A0B1E6F448FBA4EDD452F9D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,7 +115,12 @@
 			isa = PBXGroup;
 			children = (
 				CEA5ADE9213CA3CA0021CD15 /* Avocodable.h */,
+				CEA5AE01213CA6060021CD15 /* Endpoint */,
+				CEB9B2D8213CB4A90072FF91 /* Extensions */,
+				CEA5AE04213CA78A0021CD15 /* HTTPRequest */,
 				CEA5ADEA213CA3CA0021CD15 /* Info.plist */,
+				CEA5AE08213CB0770021CD15 /* Request */,
+				CEA5AE09213CB0860021CD15 /* Response */,
 			);
 			path = Avocodable;
 			sourceTree = "<group>";
@@ -84,6 +132,87 @@
 				CEA5ADF6213CA3CA0021CD15 /* Info.plist */,
 			);
 			path = AvocodableTests;
+			sourceTree = "<group>";
+		};
+		CEA5AE01213CA6060021CD15 /* Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5AE02213CA6200021CD15 /* Endpoint.swift */,
+			);
+			path = Endpoint;
+			sourceTree = "<group>";
+		};
+		CEA5AE04213CA78A0021CD15 /* HTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5AE10213CB1FC0021CD15 /* Builder */,
+				CEA5AE05213CA79C0021CD15 /* HTTPRequestable.swift */,
+				CEA5AE0E213CB14F0021CD15 /* HTTPRequest.swift */,
+			);
+			path = HTTPRequest;
+			sourceTree = "<group>";
+		};
+		CEA5AE08213CB0770021CD15 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5AE0C213CB0C60021CD15 /* Request.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		CEA5AE09213CB0860021CD15 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5AE0A213CB0960021CD15 /* Response.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		CEA5AE10213CB1FC0021CD15 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				CEB9B2D5213CB41F0072FF91 /* HTTPRequestBuilder.swift */,
+				CEA5AE11213CB2100021CD15 /* RequestBuildeable.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		CEB9B2D8213CB4A90072FF91 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CEB9B2D9213CB4B30072FF91 /* JSONCodable */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CEB9B2D9213CB4B30072FF91 /* JSONCodable */ = {
+			isa = PBXGroup;
+			children = (
+				CEB9B2DE213CB5120072FF91 /* AnyCodingKey */,
+				CEB9B2DA213CB4C90072FF91 /* JSONEncoder+Extension.swift */,
+				CEB9B2DC213CB4DC0072FF91 /* JSONDecoder+Extension.swift */,
+				CEB9B2E2213CB5AF0072FF91 /* JSONDecoderStrategy+Extension.swift */,
+			);
+			path = JSONCodable;
+			sourceTree = "<group>";
+		};
+		CEB9B2DE213CB5120072FF91 /* AnyCodingKey */ = {
+			isa = PBXGroup;
+			children = (
+				CEB9B2DF213CB5200072FF91 /* AnyCodingKey.swift */,
+			);
+			path = AnyCodingKey;
+			sourceTree = "<group>";
+		};
+		E1D0C95A4FBA0D3CC4E00ED7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9F7BB5E33E7DF7B9FC1D962 /* Pods-Avocodable.debug.xcconfig */,
+				1DA4D64BD74F587EFDA01E97 /* Pods-Avocodable.release.xcconfig */,
+				2D1DB9A1BEBE022C5A409B6E /* Pods-AvocodableTests.debug.xcconfig */,
+				9F26E05F1D19DDE93F910338 /* Pods-AvocodableTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +233,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEA5ADFA213CA3CA0021CD15 /* Build configuration list for PBXNativeTarget "Avocodable" */;
 			buildPhases = (
+				809874D0A50C6C8EBFDD2700 /* [CP] Check Pods Manifest.lock */,
 				CEA5ADE1213CA3CA0021CD15 /* Sources */,
 				CEA5ADE2213CA3CA0021CD15 /* Frameworks */,
 				CEA5ADE3213CA3CA0021CD15 /* Headers */,
@@ -123,9 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEA5ADFD213CA3CA0021CD15 /* Build configuration list for PBXNativeTarget "AvocodableTests" */;
 			buildPhases = (
+				BA98D0168A55B329F7D3ADC1 /* [CP] Check Pods Manifest.lock */,
 				CEA5ADEB213CA3CA0021CD15 /* Sources */,
 				CEA5ADEC213CA3CA0021CD15 /* Frameworks */,
 				CEA5ADED213CA3CA0021CD15 /* Resources */,
+				A94F7D82D6D0CFAB30812F49 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +281,7 @@
 				TargetAttributes = {
 					CEA5ADE5213CA3CA0021CD15 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					CEA5ADEE213CA3CA0021CD15 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -191,6 +324,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		809874D0A50C6C8EBFDD2700 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Avocodable-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A94F7D82D6D0CFAB30812F49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AvocodableTests/Pods-AvocodableTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AvocodableTests/Pods-AvocodableTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA98D0168A55B329F7D3ADC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AvocodableTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		CEA5AE00213CA3E10021CD15 /* Swiftlint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -212,6 +399,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB9B2E0213CB5200072FF91 /* AnyCodingKey.swift in Sources */,
+				CEB9B2DD213CB4DC0072FF91 /* JSONDecoder+Extension.swift in Sources */,
+				CEB9B2DB213CB4C90072FF91 /* JSONEncoder+Extension.swift in Sources */,
+				CEA5AE12213CB2100021CD15 /* RequestBuildeable.swift in Sources */,
+				CEA5AE03213CA6200021CD15 /* Endpoint.swift in Sources */,
+				CEA5AE0D213CB0C60021CD15 /* Request.swift in Sources */,
+				CEA5AE0F213CB14F0021CD15 /* HTTPRequest.swift in Sources */,
+				CEA5AE0B213CB0960021CD15 /* Response.swift in Sources */,
+				CEA5AE06213CA79C0021CD15 /* HTTPRequestable.swift in Sources */,
+				CEB9B2D6213CB41F0072FF91 /* HTTPRequestBuilder.swift in Sources */,
+				CEB9B2E3213CB5AF0072FF91 /* JSONDecoderStrategy+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,7 +554,9 @@
 		};
 		CEA5ADFB213CA3CA0021CD15 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9F7BB5E33E7DF7B9FC1D962 /* Pods-Avocodable.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -373,6 +573,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = iNahuelZapata.Avocodable;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -380,7 +581,9 @@
 		};
 		CEA5ADFC213CA3CA0021CD15 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DA4D64BD74F587EFDA01E97 /* Pods-Avocodable.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -404,7 +607,9 @@
 		};
 		CEA5ADFE213CA3CA0021CD15 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D1DB9A1BEBE022C5A409B6E /* Pods-AvocodableTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AvocodableTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -421,7 +626,9 @@
 		};
 		CEA5ADFF213CA3CA0021CD15 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F26E05F1D19DDE93F910338 /* Pods-AvocodableTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AvocodableTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
