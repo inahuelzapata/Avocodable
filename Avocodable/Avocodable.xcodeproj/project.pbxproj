@@ -23,6 +23,7 @@
 		CEB9B2DD213CB4DC0072FF91 /* JSONDecoder+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB9B2DC213CB4DC0072FF91 /* JSONDecoder+Extension.swift */; };
 		CEB9B2E0213CB5200072FF91 /* AnyCodingKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB9B2DF213CB5200072FF91 /* AnyCodingKey.swift */; };
 		CEB9B2E3213CB5AF0072FF91 /* JSONDecoderStrategy+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB9B2E2213CB5AF0072FF91 /* JSONDecoderStrategy+Extension.swift */; };
+		CEB9B2E7213CB9500072FF91 /* RequestExecutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB9B2E6213CB9500072FF91 /* RequestExecutable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		CEB9B2DC213CB4DC0072FF91 /* JSONDecoder+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONDecoder+Extension.swift"; sourceTree = "<group>"; };
 		CEB9B2DF213CB5200072FF91 /* AnyCodingKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyCodingKey.swift; sourceTree = "<group>"; };
 		CEB9B2E2213CB5AF0072FF91 /* JSONDecoderStrategy+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONDecoderStrategy+Extension.swift"; sourceTree = "<group>"; };
+		CEB9B2E6213CB9500072FF91 /* RequestExecutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestExecutable.swift; sourceTree = "<group>"; };
 		D9F7BB5E33E7DF7B9FC1D962 /* Pods-Avocodable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Avocodable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Avocodable/Pods-Avocodable.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,6 +116,7 @@
 		CEA5ADE8213CA3CA0021CD15 /* Avocodable */ = {
 			isa = PBXGroup;
 			children = (
+				CEB9B2E5213CB9380072FF91 /* Request Executor */,
 				CEA5ADE9213CA3CA0021CD15 /* Avocodable.h */,
 				CEA5AE01213CA6060021CD15 /* Endpoint */,
 				CEB9B2D8213CB4A90072FF91 /* Extensions */,
@@ -202,6 +205,14 @@
 				CEB9B2DF213CB5200072FF91 /* AnyCodingKey.swift */,
 			);
 			path = AnyCodingKey;
+			sourceTree = "<group>";
+		};
+		CEB9B2E5213CB9380072FF91 /* Request Executor */ = {
+			isa = PBXGroup;
+			children = (
+				CEB9B2E6213CB9500072FF91 /* RequestExecutable.swift */,
+			);
+			path = "Request Executor";
 			sourceTree = "<group>";
 		};
 		E1D0C95A4FBA0D3CC4E00ED7 /* Pods */ = {
@@ -350,10 +361,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-AvocodableTests/Pods-AvocodableTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -404,6 +417,7 @@
 				CEB9B2DB213CB4C90072FF91 /* JSONEncoder+Extension.swift in Sources */,
 				CEA5AE12213CB2100021CD15 /* RequestBuildeable.swift in Sources */,
 				CEA5AE03213CA6200021CD15 /* Endpoint.swift in Sources */,
+				CEB9B2E7213CB9500072FF91 /* RequestExecutable.swift in Sources */,
 				CEA5AE0D213CB0C60021CD15 /* Request.swift in Sources */,
 				CEA5AE0F213CB14F0021CD15 /* HTTPRequest.swift in Sources */,
 				CEA5AE0B213CB0960021CD15 /* Response.swift in Sources */,

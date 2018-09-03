@@ -15,9 +15,9 @@ public class HTTPRequestBuilder: HTTPRequestBuildeable {
 
     private var method: HTTPMethod!
 
-    private var params: Request!
+    private var params: RequestEncodable!
 
-    private var response: Response!
+    private var response: ResponseDecodable!
 
     private var encoding = JSONEncoding()
 
@@ -53,13 +53,13 @@ public class HTTPRequestBuilder: HTTPRequestBuildeable {
     }
 
     @discardableResult
-    public func withParams(params: Request) -> HTTPRequestBuildeable {
+    public func withParams(params: RequestEncodable) -> HTTPRequestBuildeable {
         self.params = params
         return self
     }
 
     @discardableResult
-    public func expectedResponse(_ response: Response) -> HTTPRequestBuildeable {
+    public func expectedResponse(_ response: ResponseDecodable) -> HTTPRequestBuildeable {
         self.response = response
 
         return self

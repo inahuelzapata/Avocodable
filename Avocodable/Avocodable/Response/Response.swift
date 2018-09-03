@@ -8,4 +8,4 @@
 
 import Foundation
 
-public protocol Response where Self: Decodable { }
+public protocol ResponseDecodable: Decodable { }

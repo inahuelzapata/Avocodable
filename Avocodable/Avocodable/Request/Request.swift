@@ -8,4 +8,4 @@
 
 import Foundation
 
-public protocol Request where Self: Encodable { }
+public protocol RequestEncodable: Encodable { }

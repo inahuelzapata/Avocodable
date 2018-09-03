@@ -16,9 +16,9 @@ public protocol HTTPRequestBuildeable {
 
     func withMethod(_ httpMethod: HTTPMethod) -> HTTPRequestBuildeable
 
-    func withParams(params: Request) -> HTTPRequestBuildeable
+    func withParams(params: RequestEncodable) -> HTTPRequestBuildeable
 
-    func expectedResponse(_ response: Response) -> HTTPRequestBuildeable
+    func expectedResponse(_ response: ResponseDecodable) -> HTTPRequestBuildeable
 
     func withHeaders(_ headers: [String: String]) -> HTTPRequestBuildeable
 

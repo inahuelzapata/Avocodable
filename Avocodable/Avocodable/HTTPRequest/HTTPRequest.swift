@@ -23,14 +23,14 @@ public struct HTTPRequest: HTTPRequestable {
 
     public var keyDecodingStrategy: JSONDecoder.KeyDecodingStrategy
 
-    public var params: Request
+    public var params: RequestEncodable
 
-    public var response: Response
+    public var response: ResponseDecodable
 
     public init(endpoint: Endpoint,
                 httpMethod: HTTPMethod,
-                parameters: Request,
-                response: Response,
+                parameters: RequestEncodable,
+                response: ResponseDecodable,
                 encoding: JSONEncoding = JSONEncoding.default,
                 headers: HTTPHeaders,
                 decodingStrategy: JSONDecoder.KeyDecodingStrategy) {

@@ -19,9 +19,9 @@ public protocol HTTPRequestable {
 
     var method: HTTPMethod { get set }
 
-    var params: Request { get set }
+    var params: RequestEncodable { get set }
 
-    var response: Response { get set }
+    var response: ResponseDecodable { get set }
 
     var keyDecodingStrategy: JSONDecoder.KeyDecodingStrategy { get set }
 }
